@@ -46,6 +46,9 @@ void loop() {
           Serial.print(pwm_l);
           Serial.print(" | Right Wheel Speed: ");
           Serial.println(pwm_r);
+
+
+          // driveMotorsCode(pwm_l, pwm_r);
           
         }
       }
